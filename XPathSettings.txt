@@ -29,19 +29,25 @@
         "//button[.//span[@data-icon='expressions']]"
     ],
     "AttachmentImage": [
-        "//input[@accept='image/*,video/mp4,video/3gpp,video/quicktime']",
-        "//input[@type='file' and contains(@accept, 'image')]",
-        "//span[contains(text(), 'Photos & Videos')]/../../..",
-        "//div[contains(text(), 'Photos & Videos')]/..",
-        "//li[@data-testid='mi-attach-media']",
-        "//div[@role='button'][@data-testid='mi-attach-media']"
+        "//span[contains(text(), 'Photos & videos')]",
+        "//span[contains(text(), 'Photos')]",
+        "//div[contains(text(), 'Photos & videos')]",
+        "//div[contains(text(), 'Photos')]",
+        "//li[.//span[contains(text(), 'Photos')]]",
+        "//li[.//div[contains(text(), 'Photos')]]",
+        "//div[@role='button'][.//span[contains(text(), 'Photos')]]",
+        "//li[contains(@data-testid, 'media')]",
+        "//li[contains(@data-testid, 'image')]",
+        "//span[contains(@data-icon, 'image')]",
+        "//div[contains(@data-icon, 'image')]",
+        "//li[.//div[contains(@aria-label, 'Photo')]]",
+        "//li[.//div[contains(@title, 'Photo')]]",
+        "//*[contains(text(), 'Photos & videos')]",
+        "//*[contains(text(), 'Photos')]"
     ],
     "AttachmentDocument": [
         "//input[@type='file' and @accept='*']",
         "//input[@type='file']",
-        "//span[contains(text(), 'Document')]/../../..",
-        "//div[contains(text(), 'Document')]/..",
-        "//li[@data-testid='mi-attach-document']",
-        "//div[@role='button'][@data-testid='mi-attach-document']"
+        "//input[contains(@accept, '.pdf') or contains(@accept, '*')]"
     ]
 }
