@@ -1,47 +1,47 @@
 {
-  "xPathSearchInputField": [
-    "//div[@contenteditable='true' and @data-tab='3']",
-    "//div[@contenteditable='true' and @role='textbox']",
-    "//div[@contenteditable='true']",
-    "//p[contains(text(),'Type a message')]/ancestor::div[@contenteditable='true']"
-  ],
-  "xPathNoContactFound": [
-    "//span[contains(text(), 'not on WhatsApp')]",
-    "//span[contains(text(), 'Phone number shared via link is invalid')]",
-    "//div[contains(text(), 'No chats, contacts or messages found')]",
-    "//div[contains(@data-testid, 'alert')]//span",
-    "//span[contains(text(), 'No chats found')]",
-    "//div[contains(., 'No chats, contacts or messages found')]"
-  ],
-  "xPathInvalidPhoneNumber": [
-    "//div[contains(text(), 'Phone number shared via link is invalid')]",
-    "//div[contains(text(), 'not on WhatsApp')]",
-    "//span[contains(text(), 'Phone number') and contains(text(), 'invalid')]"
-  ],
-  "AttachmentButton": [
-    "//span[@data-icon='plus-rounded']/..",
-    "//button[.//span[@data-icon='plus-rounded']]",
-    "//div[.//span[@data-icon='plus-rounded']]",
-    "//footer//span[@data-icon='plus-rounded']/..",
-    "//footer//button[.//span[@data-icon='plus-rounded']]",
-    "//footer//div[.//span[@data-icon='plus-rounded']]",
-    "//span[@data-icon='expressions']/..",
-    "//button[.//span[@data-icon='expressions']]"
-  ],
-  "AttachmentImage": [
-    "//input[@accept='image/*,video/mp4,video/3gpp,video/quicktime']",
-    "//input[@type='file' and contains(@accept, 'image')]",
-    "//span[contains(text(), 'Photos & Videos')]/../../..",
-    "//div[contains(text(), 'Photos & Videos')]/..",
-    "//li[@data-testid='mi-attach-media']",
-    "//div[@role='button'][@data-testid='mi-attach-media']"
-  ],
-  "AttachmentDocument": [
-    "//input[@type='file' and @accept='*']",
-    "//input[@type='file']",
-    "//span[contains(text(), 'Document')]/../../..",
-    "//div[contains(text(), 'Document')]/..",
-    "//li[@data-testid='mi-attach-document']",
-    "//div[@role='button'][@data-testid='mi-attach-document']"
-  ]
+    "xPathSearchInputField": [
+        "//div[@contenteditable='true' and @data-tab='3']",
+        "//div[@contenteditable='true' and @role='textbox']",
+        "//div[@contenteditable='true']",
+        "//p[contains(text(),'Type a message')]/ancestor::div[@contenteditable='true']"
+    ],
+    "xPathNoContactFound": [
+        "//span[contains(text(), 'not on WhatsApp')]",
+        "//span[contains(text(), 'Phone number shared via link is invalid')]",
+        "//div[contains(text(), 'No chats, contacts or messages found')]",
+        "//div[contains(@data-testid, 'alert')]//span",
+        "//span[contains(text(), 'No chats found')]",
+        "//div[contains(., 'No chats, contacts or messages found')]"
+    ],
+    "xPathInvalidPhoneNumber": [
+        "//div[contains(text(), 'Phone number shared via link is invalid')]",
+        "//div[contains(text(), 'not on WhatsApp')]",
+        "//span[contains(text(), 'Phone number') and contains(text(), 'invalid')]"
+    ],
+    "AttachmentButton": [
+        "//span[@data-icon='plus-rounded']/..",
+        "//button[.//span[@data-icon='plus-rounded']]",
+        "//div[.//span[@data-icon='plus-rounded']]",
+        "//footer//span[@data-icon='plus-rounded']/..",
+        "//footer//button[.//span[@data-icon='plus-rounded']]",
+        "//footer//div[.//span[@data-icon='plus-rounded']]",
+        "//span[@data-icon='expressions']/..",
+        "//button[.//span[@data-icon='expressions']]"
+    ],
+    "AttachmentImage": [
+        "//input[@accept='image/*,video/mp4,video/3gpp,video/quicktime']",
+        "//input[@type='file' and contains(@accept, 'image')]",
+        "//span[contains(text(), 'Photos & Videos')]/../../..",
+        "//div[contains(text(), 'Photos & Videos')]/..",
+        "//li[@data-testid='mi-attach-media']",
+        "//div[@role='button'][@data-testid='mi-attach-media']"
+    ],
+    "AttachmentDocument": [
+        "//input[@type='file' and @accept='*']",
+        "//input[@type='file']",
+        "//span[contains(text(), 'Document')]/../../..",
+        "//div[contains(text(), 'Document')]/..",
+        "//li[@data-testid='mi-attach-document']",
+        "//div[@role='button'][@data-testid='mi-attach-document']"
+    ]
 }
